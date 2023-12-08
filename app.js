@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 // Connection URI
-const uri = 'mongodb+srv://Abi:abiabi@study.9o2iioz.mongodb.net/';
+const uri = 'ypur_URI';
 const dbName = 'test';
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
